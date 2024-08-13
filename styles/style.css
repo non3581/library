@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+:root{
+    --Primary: #8A2BE2;
+    --Hover: #6918B4;
+    --Background: #fafafa;
+    --Background-container:#ffffff;
+    --Grey: #EDEDED;
+    --Text: #121212;
+    --Shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    color: var(--Text);
+    font-family: "Noto Sans Thai", sans-serif;
+    object-fit: cover;
+    list-style: none;
+    scroll-behavior: smooth;
+    transition: .25s all ease-out;
+}
+img{
+    width: 100%;
+}
+body{
+    min-height: 100vh;
+    background-color: var(--Background);
+    position: relative;
+}
+.full{
+    width: 100%;
+}
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: var(--Shadow);
+    background-color: var(--Background-container);
+    z-index: 99;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    max-width: 80rem;
+    margin: 0 auto; 
+}
+.flex{
+    display: flex;
+}
+.aic{
+    align-items: center;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: "Radio Canada Big", sans-serif;
+    color: var(--Primary);
+}
+.search-container{
+    background-color: var(--Grey);
+    border-radius: 0.25rem;
+    padding-left: 0.5rem;
+}
+input{
+    padding: 0.688rem;
+    font-size: 1rem;
+    border: none;
+    background-color: var(--Grey);
+    border-radius: 0.25rem;
+}
+button{
+    padding: 0.625rem 1.5rem;
+    font-size: 1rem;
+    border: 1px solid var(--Primary);
+    color: var(--Background);
+    border-radius: 0.25rem;
+    background-color: var(--Primary);
+    cursor: pointer;
+    font-weight: bold;
+    i{
+        color: var(--Background);
+        margin-right: 0.5rem;
+    }
+    *{
+        display: flex;
+        align-items: center;
+    }
+}
+button:hover{
+    background-color: var(--Hover);
+}
+i{
+    font-size: 1.2rem;
+}
+.nav-menu{
+    gap: 1rem;
+    li>a{
+        padding: 0.5rem;
+        font-weight: bold;
+    }
+}
+a>i{
+    font-size: 2.625rem;
+}
+main{
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+}
+.main-container{
+    padding: 4rem 0;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+.center{
+    display: grid;
+    place-items: center;
+}
+.hero{
+    padding: 4rem 0 4rem;
+    .left{
+        h1{
+            font-size: 2.5rem;
+        }
+        p{
+            padding: 2rem 0;
+        }
+    }
+
+}
+.img-hero{
+    max-width: 30rem;
+}
+.heading{
+    h1{
+        font-size: 2rem;
+    }
+    margin-bottom: 1.5rem;
+}
+.container{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--Shadow);
+    background-color: var(--Background-container);
+}
+.grid-5{
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+    gap: 1rem;
+}
+.card-container{
+    padding: 1rem;
+    border-radius: 0.25rem;
+    img{
+        border-radius: 0.25rem;
+        aspect-ratio: 1/1.5;
+    }
+    .text-card h3 {
+        display: -webkit-box;
+        -webkit-line-clamp: 3; /* Limit to 3 lines */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+        height: calc(1.5em * 3); /* Adjust line height times the number of lines */
+    }
+}
+.card-container:hover{
+    background-color: var(--Grey);
+}
+.login-container{
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        margin-bottom: 2rem;
+    }
+    .input-container{
+        margin-bottom: 1rem;
+    }
+}
+.img-detail{
+    max-width: 30rem;
+}
+.books-detail{
+    padding: 4rem 0 4rem;
+    .right{
+        h1{
+            font-size: 2.5rem;
+        }
+    }
+    form{
+        margin-bottom: 2rem;
+        h3,p{
+            margin: 1rem 0;
+        }
+    }
+}
+.books-container,.dashboard-main-container{
+    padding: 4rem 0 4rem;
+}
+.grid-1-3{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+}
+.dashboard-main-container{
+    .input-container{
+        margin-bottom: 1rem;
+    }
+}
+.profile-container{
+    margin-bottom: 2rem;
+    h1{
+        margin-bottom: 1.5rem;
+    }
+}

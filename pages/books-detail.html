@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Detail</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="https://kit.fontawesome.com/f2fa638c12.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Tech<span class="font-logo">Reads.</span></a>
+            <ul class="nav-menu flex aic">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <form action="" method="get" class="search-container flex aic"><i class="fas fa-search"></i><input type="text" name="search-book" placeholder="Book name"  value="" id=""><button type="submit" name="submit_search">Search</button></form>
+                <a href="../pages/login.html"><i class="far fa-user-circle"></i></a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="books-detail">
+            <form method="get" class="grid-2">
+                <div class="left">
+                    <img src="../images/book4.jpg" alt="" class="img-hero">
+                </div>
+                <div class="right">
+                    <h1>พื้นฐานการเขียนโปรแกรมและอัลกอริทึมภาษา Python</h1>
+                    <h3>Author : <a href="">ประยงค์ อู่ประสิทธิ์วงศ์</a></h3>
+                    <h3>Price : ฿ 279</h3>
+                    <h3>Available : 1</h3>
+                    <h3>Categorys : <a href="">Programming</a></h3>
+                    <p><b>Details</b><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eos autem aperiam sint dolor! Vel dolorem sed expedita eaque aspernatur molestias fugit illo accusantium, temporibus libero cum magni. Temporibus, repudiandae?</p>
+                    <button name="add-to-basket" type="submit">Add to list</button>
+                </div>
+            </form>
+            <article class="index-container container">
+                <div class="heading flex aic jcsb">
+                    <h1>Related</h1>
+                </div>
+                <section class="grid-5 ">
+                    <a href="books-detail.html" class="card-container">
+                        <img src="../images/book4.jpg" alt="" >
+                        <div class="text-card">
+                            <h3>พื้นฐานการเขียนโปรแกรมและอัลกอริทึมภาษา Python</h3>
+                            <p>ประยงค์ อู่ประสิทธิ์วงศ์</p>
+                            <p>Available 1 </p>
+                        </div>
+                    </a>          
+                </section>
+            </article>
+        </article>
+    </main>
+</body>
+</html>
