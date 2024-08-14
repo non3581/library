@@ -21,6 +21,15 @@
     scroll-behavior: smooth;
     transition: .25s all ease-out;
 }
+.g{
+    color: #387F39;
+}
+.r{
+    color: #B43F3F;
+}
+.y{
+    color: #FFD35A;
+}
 img{
     width: 100%;
 }
@@ -46,7 +55,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 1rem 1rem;
-    max-width: 80rem;
+    max-width: 100rem;
     margin: 0 auto; 
 }
 .flex{
@@ -111,7 +120,7 @@ a>i{
     font-size: 2.625rem;
 }
 main{
-    max-width: 80rem;
+    max-width: 100rem;
     margin: 0 auto;
     padding: 4rem 1rem;
 }
@@ -221,8 +230,24 @@ main{
     }
 }
 .profile-container{
-    margin-bottom: 2rem;
-    h1{
-        margin-bottom: 1.5rem;
+    h1,p{
+        margin-bottom: 1rem;
+        font-weight: bold;
     }
+}
+.grid-6{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 1rem;
+}
+.grid-4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+.table{
+    margin-top: 1rem;
+}
+.table-row{
+    margin-top: 1rem;
 }

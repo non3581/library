@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="../styles/style.css">
     <script src="https://kit.fontawesome.com/f2fa638c12.js" crossorigin="anonymous"></script>
 </head>
@@ -24,52 +24,53 @@
     <main>
         <article class="grid-1-3 dashboard-main-container">
             <div class="col">
-                <div class="profile-container">
-                    
-                </div>
-                <!-- <div class="profile-container container">
-                    <h1>Account Info</h1>
-                    <div class="input-container">
-                        <label for="">ID</label>
-                        <input class="full" type="text" name="user_id" placeholder="User Id" value="" id="" />
-                    </div>
-                    <div class="input-container">
-                        <label for="">Name</label>
-                        <input class="full" type="text" name="user_name" placeholder="User Name" value="" id="" />
-                    </div>
-                    <div class="input-container">
-                        <label for="">Address</label>
-                        <input class="full" type="text" name="user_address" placeholder="User Address" value="" id="" />
-                    </div>
-                    <div class="input-container">
-                        <label for="">Phone</label>
-                        <input class="full" type="text" name="user_phone" placeholder="User Phone" value="" id="" />
-                    </div>
-                    <div class="input-container">
-                        <label for="">Email</label>
-                        <input class="full" type="text" name="user_email" placeholder="User Email" value="" id="" />
-                    </div>
-                    <div class="input-container">
-                        <label for="">Date Join : </label>
-                    </div>
-                    <button type="submit" class="full" name="submit_change_info">Sign In</button>
-                </div>
                 <div class="profile-container container">
-                    <h1>Change </h1>
-                    <div class="input-container">
-                        <label for="">Current Password</label>
-                        <input class="full" type="text" name="user_id" placeholder="Current Password" value="" id="" />
+                    <h1>Account Info</h1>
+                    <p>ID : 66309010006</p>
+                    <p>Full Name : นายรัชชานนท์ วงศ์คำจันทร์</p>
+                    <p>Department : เทคโนโลยีสารสนเทศ</p>
+                    <p>Level : ปวส</p>
+                    <p>Phone : 0810541331</p>
+                    <a href="edit-info.html"><button>Edit Info</button></a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="grid-4 aic">
+                    <div class="container">
+                        <h3>All Borrow</h3>
+                        <h1>3</h1>
                     </div>
-                    <div class="input-container">
-                        <label for="">New Password</label>
-                        <input class="full" type="text" name="user_id" placeholder="New Password" value="" id="" />
+                    <div class="container ">
+                        <h3>Borrowing</h3>
+                        <h1>2</h1>
                     </div>
-                    <div class="input-container">
-                        <label for="">Confirm Password</label>
-                        <input class="full" type="text" name="user_id" placeholder="Confirm Password" value="" id="" />
+                    <div class="container ">
+                        <h3>Complete</h3>
+                        <h1>1</h1>
                     </div>
-                    <button type="submit" class="full" name="submit_signin">Sign In</button>
-                </div> -->
+                    <div class="container ">
+                        <h3>Overdue</h3>
+                        <h1>0</h1>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="table-head container grid-6 aic">
+                        <span>Books Name</span>
+                        <span>librarian</span>
+                        <span>Borrow Date</span>
+                        <span>Due Date</span>
+                        <span>Return Date</span>
+                        <span>Status</span>
+                    </div>
+                    <a href="" class="table-row container grid-6 aic">
+                        <span>พื้นฐานการเขียนโปรแกรมและอัลกอริทึมภาษา Python</span>
+                        <span>ผู้ดูแล1</span>
+                        <span>14/08/2024</span>
+                        <span>16/08/2024</span>
+                        <span>16/08/2024</span>
+                        <h3 class="g">Complete</h3>
+                    </a>
+                </div>
             </div>
         </article>
     </main>
