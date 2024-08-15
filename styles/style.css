@@ -248,6 +248,12 @@ main{
 .table{
     margin-top: 1rem;
 }
+.table-head{
+    font-weight: bold;
+}
 .table-row{
     margin-top: 1rem;
+}
+.table-row:hover{
+    background-color: var(--Grey);
 }
